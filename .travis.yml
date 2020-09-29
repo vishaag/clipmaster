@@ -6,7 +6,5 @@ os:
   - windows
 install:
   - npm ci --verbose
-  - cd electron
-  - npm ci --verbose
 notifications:
   email: false
