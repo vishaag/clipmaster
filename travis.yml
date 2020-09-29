@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+  - 12
+os:
+  - mac
+  - windows
+install:
+  - npm ci --verbose
+  - cd electron
+  - npm ci --verbose
+notifications:
+  email: false
